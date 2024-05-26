@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Portfolio Website - Diya</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- bootstrap CDN-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+        <!-- font awesome-->
+        <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+        <!-- linking css file -->
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+        <!-- navbar -->
+        <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">Diya</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+          <!-- main banner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h2 class="hero_title">Hi, it's me Diya</h2>
+                <p class="hero_desc">I am a computer engineering student</p>
+            </div>
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="container mt-4 pt-4 section" id="about">
+        <h1 class="text-center">About Me</h1>
+        
+        <div class="row mt-4">
+            <div class="col-lg-4">
+                <img src="https://media.licdn.com/dms/image/D4E03AQHe863SrSoTrQ/profile-displayphoto-shrink_800_800/0/1710999969134?e=2147483647&v=beta&t=tcjQTYWAcPnBtSN5utP_tq_QGB_MLNM0Jyv8cRZTiE4" class="image_about" alt="">
+            </div>
+
+            <div class="col-lg-8">
+                <p> Hello, I am Diya Punjabi, a dedicated and aspiring Computer Engineering Student.
+                    I am passionate about exploring the ever-evolving world of technology.
+                    My coursework has exposed me to a wide range of subjects, from digital systems design to programming languages.
+                    Let's connect and explore opportunities to share knowledge and ideas!
+                    
+                </p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Python</li>
+                            <li>Programming with C</li>
+                            <li>Proficiency in with working Database(SQL/MYSQL)</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Art and Craft</li>
+                            <li>Reading</li>
+                            <li>Cooking</li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <p>Creative, hardworking student currently pursuing Computer Engineering at Gandhinagar University of Gujarat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+    <section class="container section" id="services">
+        <h1 class="text-center">Services</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-3">Website Development</h4>
+                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">Website Design</h4>
+                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa-check-circle'></i>
+                        <h4 class="card-title mt-3">Website Deployment</h4>
+                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-search'></i>
+                        <h4 class="card-title mt-3">Python</h4>
+                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-shield-alt'></i>
+                        <h4 class="card-title mt-3">SQL</h4>
+                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-wrench'></i>
+                        <h4 class="card-title mt-3">QA</h4>
+                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section class="section" id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW91dHViZSUyMGxvZ298ZW58MHx8MHx8fDA%3D" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">YouTube Clone</h4>
+                            
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://www.riddle.com/imageservice/q_80,f_auto,c_fill,w_960,h_540/ed6cozjawexldjs7yedn" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Quiz App</h4>
+                    
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://media.convertkit.com/post/HERO-product-landing-page-examples.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Product Landing Page</h4>
+                           
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://messengernews.fb.com/wp-content/uploads/2023/04/Buck_FBMK_Logo_ColorUpdate_v01_3-2.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Messaging Service</h4>
+                            
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://freepnglogo.com/images/all_img/1707222563twitter-logo-png.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Twitter Clone</h4>
+                           
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="data:image/png;base64,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" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Blog App</h4>
+                           
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <!-- contact section-->
+    <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+    <section class="container mt-3 section" id="contact">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                
+                <!-- form fields -->
+                <form>
+                    <input type="text" class="form-control form-control-lg" placeholder="Name">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3">Contact Me</button>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+        </div>
+    </footer>
+    
+
+        <!-- load javascript after loading all html content -->
+        <script src="script/script.js"></script>
+    </body>
+</html>
